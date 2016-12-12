@@ -1,7 +1,6 @@
 Tests whether a file / folder is the child of another file.
 
-isChild(parent, child)
-returns true or false
+`isChild(parent, child)` returns true or false
 
 Can also be used to test if a folder is the parent of a file / folder (just swap the arguments 😉 )
 
