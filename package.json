@@ -1,0 +1,8 @@
+{
+  "name": "is-child",
+  "version": "0.0.1",
+  "description": "Test whether a folder is the child ( or parent ) of another",
+  "main": "index.js",
+  "author": "phelm <npm@phelm.co.uk>",
+  "license": "MIT"
+}
