@@ -4,5 +4,8 @@
   "description": "Test whether a folder is the child ( or parent ) of another folder or file, using node path module",
   "main": "index.js",
   "author": "phelm <npm@phelm.co.uk>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isequal": "^4.4.0"
+  }
 }

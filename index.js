@@ -1,5 +1,6 @@
 'use strict';
 let path = require('path');
+let isEqual = require('lodash.isequal');
 let sep = path.sep;
 
 module.exports = (parent, child) => {
@@ -12,5 +13,5 @@ module.exports = (parent, child) => {
   if (clength <= plength){
     return false;
   }
-  return (_.isEqual(child.slice(0, parent.length), parent));
+  return (isEqual(child.slice(0, parent.length), parent));
 };
