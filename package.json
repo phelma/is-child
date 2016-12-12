@@ -1,7 +1,7 @@
 {
   "name": "is-child",
   "version": "0.0.1",
-  "description": "Test whether a folder is the child ( or parent ) of another",
+  "description": "Test whether a folder is the child ( or parent ) of another folder or file, using node path module",
   "main": "index.js",
   "author": "phelm <npm@phelm.co.uk>",
   "license": "MIT"
